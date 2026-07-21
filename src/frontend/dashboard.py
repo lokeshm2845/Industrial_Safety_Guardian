@@ -1,5 +1,6 @@
 import streamlit as st
 import os
+import sys
 import json
 import asyncio
 import threading
@@ -7,10 +8,14 @@ import time
 from datetime import datetime
 import streamlit.components.v1 as components
 
+# Add project root to sys.path to resolve src.* imports on cloud platforms like Streamlit Cloud
+base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
+if base_dir not in sys.path:
+    sys.path.insert(0, base_dir)
+
 # Load environment variables on startup
 try:
     from dotenv import load_dotenv
-    base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
     env_path = os.path.join(base_dir, ".env")
     load_dotenv(dotenv_path=env_path, override=True)
 except Exception:
