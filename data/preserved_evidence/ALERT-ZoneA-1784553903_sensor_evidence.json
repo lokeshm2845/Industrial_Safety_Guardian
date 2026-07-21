@@ -1,0 +1,192 @@
+{
+  "alert_id": "ALERT-ZoneA-1784553903",
+  "zone": "Zone A",
+  "risk_score_at_trigger": 0.9,
+  "timestamp_utc": "2026-07-20T18:55:03.309632Z",
+  "active_permits": [
+    [
+      "Active Hot Work permit (PERMIT-A-409: Welding and pipe cutting on main hydrocarbon line)",
+      "Equipment under active maintenance (EQ-PUMP-101A)",
+      "WARNING: Gas pre-alarm threshold reached (CO: 42.0 ppm, LEL: 18.5%)",
+      "ALERT: Rapidly rising gas trend: CO rising at 13.33%/min, LEL rising at 16.43%/min"
+    ]
+  ],
+  "active_telemetry_snapshot": [
+    {
+      "timestamp": "2026-07-16T23:00:00Z",
+      "zone": "Zone A",
+      "sensor_id": "SN-A-CO-01",
+      "gas": "CO",
+      "value": 2.0,
+      "unit": "ppm"
+    },
+    {
+      "timestamp": "2026-07-16T23:00:00Z",
+      "zone": "Zone A",
+      "sensor_id": "SN-A-LEL-01",
+      "gas": "LEL",
+      "value": 0.0,
+      "unit": "%"
+    },
+    {
+      "timestamp": "2026-07-16T23:05:00Z",
+      "zone": "Zone A",
+      "sensor_id": "SN-A-CO-01",
+      "gas": "CO",
+      "value": 2.1,
+      "unit": "ppm"
+    },
+    {
+      "timestamp": "2026-07-16T23:05:00Z",
+      "zone": "Zone A",
+      "sensor_id": "SN-A-LEL-01",
+      "gas": "LEL",
+      "value": 0.0,
+      "unit": "%"
+    },
+    {
+      "timestamp": "2026-07-16T23:10:00Z",
+      "zone": "Zone A",
+      "sensor_id": "SN-A-CO-01",
+      "gas": "CO",
+      "value": 2.2,
+      "unit": "ppm"
+    },
+    {
+      "timestamp": "2026-07-16T23:10:00Z",
+      "zone": "Zone A",
+      "sensor_id": "SN-A-LEL-01",
+      "gas": "LEL",
+      "value": 0.0,
+      "unit": "%"
+    },
+    {
+      "timestamp": "2026-07-16T23:15:00Z",
+      "zone": "Zone A",
+      "sensor_id": "SN-A-CO-01",
+      "gas": "CO",
+      "value": 2.5,
+      "unit": "ppm"
+    },
+    {
+      "timestamp": "2026-07-16T23:15:00Z",
+      "zone": "Zone A",
+      "sensor_id": "SN-A-LEL-01",
+      "gas": "LEL",
+      "value": 0.0,
+      "unit": "%"
+    },
+    {
+      "timestamp": "2026-07-16T23:20:00Z",
+      "zone": "Zone A",
+      "sensor_id": "SN-A-CO-01",
+      "gas": "CO",
+      "value": 3.2,
+      "unit": "ppm"
+    },
+    {
+      "timestamp": "2026-07-16T23:20:00Z",
+      "zone": "Zone A",
+      "sensor_id": "SN-A-LEL-01",
+      "gas": "LEL",
+      "value": 0.0,
+      "unit": "%"
+    },
+    {
+      "timestamp": "2026-07-16T23:25:00Z",
+      "zone": "Zone A",
+      "sensor_id": "SN-A-CO-01",
+      "gas": "CO",
+      "value": 4.5,
+      "unit": "ppm"
+    },
+    {
+      "timestamp": "2026-07-16T23:25:00Z",
+      "zone": "Zone A",
+      "sensor_id": "SN-A-LEL-01",
+      "gas": "LEL",
+      "value": 1.0,
+      "unit": "%"
+    },
+    {
+      "timestamp": "2026-07-16T23:30:00Z",
+      "zone": "Zone A",
+      "sensor_id": "SN-A-CO-01",
+      "gas": "CO",
+      "value": 7.0,
+      "unit": "ppm"
+    },
+    {
+      "timestamp": "2026-07-16T23:30:00Z",
+      "zone": "Zone A",
+      "sensor_id": "SN-A-LEL-01",
+      "gas": "LEL",
+      "value": 2.2,
+      "unit": "%"
+    },
+    {
+      "timestamp": "2026-07-16T23:35:00Z",
+      "zone": "Zone A",
+      "sensor_id": "SN-A-CO-01",
+      "gas": "CO",
+      "value": 11.5,
+      "unit": "ppm"
+    },
+    {
+      "timestamp": "2026-07-16T23:35:00Z",
+      "zone": "Zone A",
+      "sensor_id": "SN-A-LEL-01",
+      "gas": "LEL",
+      "value": 4.5,
+      "unit": "%"
+    },
+    {
+      "timestamp": "2026-07-16T23:40:00Z",
+      "zone": "Zone A",
+      "sensor_id": "SN-A-CO-01",
+      "gas": "CO",
+      "value": 18.0,
+      "unit": "ppm"
+    },
+    {
+      "timestamp": "2026-07-16T23:40:00Z",
+      "zone": "Zone A",
+      "sensor_id": "SN-A-LEL-01",
+      "gas": "LEL",
+      "value": 7.0,
+      "unit": "%"
+    },
+    {
+      "timestamp": "2026-07-16T23:45:00Z",
+      "zone": "Zone A",
+      "sensor_id": "SN-A-CO-01",
+      "gas": "CO",
+      "value": 28.0,
+      "unit": "ppm"
+    },
+    {
+      "timestamp": "2026-07-16T23:45:00Z",
+      "zone": "Zone A",
+      "sensor_id": "SN-A-LEL-01",
+      "gas": "LEL",
+      "value": 11.2,
+      "unit": "%"
+    },
+    {
+      "timestamp": "2026-07-16T23:50:00Z",
+      "zone": "Zone A",
+      "sensor_id": "SN-A-CO-01",
+      "gas": "CO",
+      "value": 42.0,
+      "unit": "ppm"
+    },
+    {
+      "timestamp": "2026-07-16T23:50:00Z",
+      "zone": "Zone A",
+      "sensor_id": "SN-A-LEL-01",
+      "gas": "LEL",
+      "value": 18.5,
+      "unit": "%"
+    }
+  ]
+}

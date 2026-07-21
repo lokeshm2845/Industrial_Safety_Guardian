@@ -1,0 +1,24 @@
+{
+  "report_id": "INC-REP-ZoneA-20260716-1842",
+  "timestamp_utc": "2026-07-16T18:42:53.329763Z",
+  "alert_id": "ALERT-ZoneA-1784207573",
+  "target_zone": "Zone A",
+  "consequences": "None (Early Warning Evacuation Executed)",
+  "incident_factors": [
+    "Active Hot Work permit (PERMIT-A-409: Welding and pipe cutting on main hydrocarbon line)",
+    "Equipment under active maintenance (EQ-PUMP-101A)",
+    "WARNING: Gas pre-alarm threshold reached (CO: 42.0 ppm, LEL: 18.5%)",
+    "ALERT: Rapidly rising gas trend: CO rising at 13.33%/min, LEL rising at 16.43%/min"
+  ],
+  "impacted_personnel": [
+    "Rajesh Kumar",
+    "Amit Sharma",
+    "Vikram Singh",
+    "Sunita Patel"
+  ],
+  "compliance_citations": [
+    "OISD Clause 2: Suspended Hot Work permits due to rising gas trends",
+    "Factories Act Section 36: Forced extraction and evacuation before fumes exceed safe inhalation levels"
+  ],
+  "status": "Evacuated. Area Isolated."
+}

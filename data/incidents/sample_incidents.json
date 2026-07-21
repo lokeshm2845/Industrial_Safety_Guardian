@@ -1,0 +1,52 @@
+[
+  {
+    "incident_id": "INC-2025-012",
+    "date": "2025-04-12",
+    "zone": "Zone A",
+    "title": "Flash Fire During Piping Modification",
+    "description": "A contractor crew was conducting welding on a 4-inch bypass pipeline under a Hot Work permit. A minor pocket of trapped gas escaped from the valve seat, triggering a local flash fire. The gas detector did not trigger early enough because it was positioned 5 meters away. Analysis showed localized CO and LEL levels had climbed over 15 minutes before the flare-up.",
+    "root_cause": "Inadequate purging of the pipe spool combined with delayed local gas detection.",
+    "corrective_actions": "Mandate local portable gas monitors within 1 meter of welding. Revise safety checks for hot work permits.",
+    "tags": ["Hot Work", "Gas Leak", "Flash Fire"]
+  },
+  {
+    "incident_id": "INC-2025-088",
+    "date": "2025-08-22",
+    "zone": "Zone B",
+    "title": "Toxic Gas Leak During Maintenance",
+    "description": "An operator opened a flange on pump P-202 without verified Lockout Tagout (LOTO). Residual CO gas at 50 ppm escaped, resulting in minor inhalation symptoms. The sensor agent showed a sudden spike, but maintenance crew were not notified automatically since dashboard alerts were logged offline.",
+    "root_cause": "Failure to apply LOTO and lack of real-time communication between safety dashboard and maintenance crews.",
+    "corrective_actions": "Enforce LOTO validation prior to permit signoff. Implement automated safety officer push alerts.",
+    "tags": ["LOTO", "CO Inhalation", "Maintenance"]
+  },
+  {
+    "incident_id": "INC-2025-104",
+    "date": "2025-10-05",
+    "zone": "Zone C",
+    "title": "O2 Deficiency Near Storage Tank T-102",
+    "description": "A worker entering storage tank T-102 experienced lightheadedness. Handheld gas monitor recorded an O2 level of 18.2% (threshold: 19.5%). The entry was immediately halted and the worker was evacuated.",
+    "root_cause": "Inadequate mechanical ventilation before and during the entry, despite confined space permits being active.",
+    "corrective_actions": "Require continuous forced-air ventilation and secondary telemetry logs for storage tanks.",
+    "tags": ["Confined Space", "O2 Deficiency", "Tank Inspection"]
+  },
+  {
+    "incident_id": "INC-2026-003",
+    "date": "2026-01-14",
+    "zone": "Zone D",
+    "title": "Arc Flash Near Substation 4 Transformer",
+    "description": "During substation maintenance, an electrician touched a live transformer terminal. An arc flash occurred, causing minor hand burns. The LOTO checklist was signed off but not verified physically.",
+    "root_cause": "Checking off checklists without field verification.",
+    "corrective_actions": "Mandate live-line testing and physical key lock box systems for substation permits.",
+    "tags": ["Electrical", "Arc Flash", "LOTO Verification"]
+  },
+  {
+    "incident_id": "INC-2026-042",
+    "date": "2026-04-19",
+    "zone": "Zone E",
+    "title": "LEL Alarm During Cold Work Pipe Tapping",
+    "description": "A cold tapping operation in Zone E was halted when a surrounding area sensor registered LEL at 12%. Work stopped, the area was cleared, and nitrogen purging was re-established.",
+    "root_cause": "Gasket deterioration on neighboring line causing slow escape of butane gas.",
+    "corrective_actions": "Conduct adjacent pipeline screening prior to starting work on shared platforms.",
+    "tags": ["LEL Alarm", "Cold Work", "Purging"]
+  }
+]

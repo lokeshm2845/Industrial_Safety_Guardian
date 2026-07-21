@@ -1,0 +1,34 @@
+================================================================================
+OIL INDUSTRY SAFETY DIRECTORATE (OISD) SAFETY GUIDELINES
+Reference Standard: OISD-GDN-137 / OISD-STD-105
+================================================================================
+
+OISD-137: Work Permit System
+1. OBJECTIVE:
+   To ensure that all maintenance, inspection, repair, or construction work is executed with safety in mind.
+
+2. HOT WORK GUIDELINES:
+   - "Hot Work" is any work involving welding, grinding, cutting, or any work producing spark/flame.
+   - Gas testing is mandatory before starting any Hot Work. LEL (Lower Explosive Limit) must be 0.0%.
+   - In areas where gas concentration could change (e.g., hydrocarbon pipelines, manifolds), continuous gas monitoring is required.
+   - If LEL goes above 2%, or CO level spikes, all hot work permits in the zone must be suspended immediately.
+   - No hot work permit shall be issued unless equipment maintenance is verified, and Lockout-Tagout (LOTO) is applied to all energy sources.
+
+3. LOCKOUT-TAGOUT (LOTO):
+   - Isolation of electrical, mechanical, hydraulic, and process hazards is mandatory.
+   - Lock and Tag must be applied by authorized safety leads.
+   - Double Block and Bleed (DBB) isolation is required for hot work on hydrocarbon lines.
+
+4. GAS DETECTOR REQUIREMENTS (OISD-STD-105):
+   - Hydrocarbon detectors must trigger pre-alerts at 10% LEL and high alarms at 20% LEL.
+   - Toxic gas monitors (e.g., CO and H2S) must alarm when concentrations exceed PEL (Permissible Exposure Limit).
+   - CO pre-alarm: 25 ppm, emergency alarm: 50 ppm.
+   - H2S pre-alarm: 5 ppm, emergency alarm: 10 ppm.
+   - O2 deficiency levels: O2 levels below 19.5% require breathing apparatus and constitute immediate danger to life.
+
+5. EMERGENCY PLAYBOOKS:
+   - When gas readings indicate a rising trend (>2% increase in toxic/flammable gas concentration per minute) and hot work is active, the compound risk is critical.
+   - Emergency Marshall must trigger immediate localized evacuation.
+   - All electrical power to the affected zone must be isolated.
+   - Action log must preserve data from 30 minutes before the trigger for root cause inspection.
+================================================================================

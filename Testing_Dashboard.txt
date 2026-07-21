@@ -1,0 +1,43 @@
+Here is a step-by-step guide to testing each of the 9 new safety features directly inside the dashboard:
+
+1. 📈 Factory Safety Score & 📊 Explainable AI
+Where to look: At the top left of the dashboard.
+How to test:
+Observe the Global Safety Score gauge card.
+Scrub the timeline slider in the left sidebar to 23:35:00Z.
+Look at the right panel under the Control Room tab. Under Explainable AI, you will see a detailed bar chart breakdown of the safety score weights (e.g. Hot work: +0.2, Gas trend: +0.3) explaining exactly why the score has changed.
+
+2. 🗺️ Live Risk Heatmap & 🛰️ Smart Evacuation Routing
+Where to look: The Control Room & Routing tab (main map view).
+How to test:
+Turn on the ▶️ Auto-Play Timeline toggle in the sidebar. This animates the telemetry progression.
+At 23:45:00Z (CRITICAL Alert), look at Zone A (which turns red) on the map.
+Notice the Safe Assembly Point (Muster Gate 2) marker (green icon).
+You will see a cyan dashed line (evacuation route) drawn from each worker in Zone A to the muster gate, safely routing them around the active hazard polygon.
+
+3. 👷 Worker Digital IDs
+Where to look: The Worker Digital IDs tab.
+How to test:
+Browse the grid of personnel digital company badges.
+Search for Rajesh in the filter box. Click on his card to view his digital UWB tag ID, emergency contacts, medical fitness class (Class A), blood group, and training certifications (Hot Work Safety).
+Change the timeline slider to 23:45:00Z and watch his status badge on his card change to EVACUATED.
+
+4. 🔮 Future Accident Simulation
+Where to look: The Simulation Studio tab.
+How to test:
+Select a zone to simulate (e.g., Zone B).
+Manually move the sliders to set CO to 55 ppm, check Active Hot Work, and uncheck LOTO Compliance.
+The gauge will immediately output the predicted score (0.90) and show you the Containment Playbook Actions (evacuation alerts, logging evidence) that would fire.
+
+5. 🤖 Multi-Agent AI Collaboration
+Where to look: The Agent Collaboration Feed tab.
+How to test:
+Choose any timeline milestone in the sidebar.
+Go to the feed to review the dialogue logs. You can audit how the pm-agent, sensor-agent, permit-agent, geo-agent, and response-agent coordinate, share information, and agree on risk actions.
+
+6. 🧠 AI Safety Copilot & 📄 One-Click Reports
+Where to look: The AI Safety Copilot tab and the Header bar.
+How to test:
+Look at the Real-Time Safety Analysis section of the Copilot tab. It dynamically warns you of compliance gaps (e.g., "Valve EQ-VALVE-202 is undergoing maintenance without verified LOTO!").
+Type a regulatory question in the chat box, e.g., "What is the OISD standard LEL threshold limit?" to test the RAG engine.
+Click the Export Shift Safety Report (or Download Incident Report) button at the top-right to download the full certified safety audit report with a single click.

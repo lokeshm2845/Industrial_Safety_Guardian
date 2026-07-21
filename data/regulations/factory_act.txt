@@ -1,0 +1,30 @@
+================================================================================
+THE FACTORIES ACT, 1948 - CHAPTER IV: SAFETY PROVISIONS
+================================================================================
+
+Section 35: Protection of Eyes
+- In respect of any manufacturing process involving risk to eyes from particles or fragments thrown off, or exposure to excessive light, effective screens or goggles must be provided for workers.
+
+Section 36: Precautions Against Dangerous Fumes, Gases, and Confined Spaces
+- No person shall be required or allowed to enter any chamber, tank, vat, pipe, flue, or other confined space in any factory in which any gas, fume, vapor, or dust is likely to be present to such an extent as to involve risk to persons, unless:
+  1. A suitable manhole or access point is provided.
+  2. All practicable measures have been taken to remove fumes and prevent ingress of gas.
+  3. The space has been tested and certified by a competent safety officer as safe and free from dangerous fumes (e.g., O2 > 19.5%, CO < 25 ppm).
+  4. The worker wears a safety belt and rope, and a person is stationed outside to handle rescue.
+
+Section 37: Explosive or Inflammable Dust, Gas, etc.
+- Where any process produces gas, fume, or dust of such character and to such extent as to be liable to explode on ignition:
+  1. All practicable measures shall be taken to prevent explosion by:
+     - Effective enclosure of the plant.
+     - Exclusion or effective isolation of all sources of ignition (no Hot Work).
+     - Keeping gas concentration well below explosive limits.
+  2. If the risk is high, isolation valves must shut off feeds automatically.
+
+Section 38: Precautions in Case of Fire
+- Every factory must be provided with adequate means of escape in case of fire.
+- Safety officers must define exit pathways, conduct regular drills, and maintain automatic warning systems.
+- In case of critical gas alarms, the factory manager must coordinate with the safety Marshall to trigger immediate evacuation.
+
+Section 108: Display of Notices and Compliance Logs
+- Accurate compliance and safety audit logs (e.g., sensor telemetry, permit logs, incident responses) must be preserved and presented upon inspection. Failure to maintain records of dangerous occurrences is subject to penalties.
+================================================================================

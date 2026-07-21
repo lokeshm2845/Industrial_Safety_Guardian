@@ -1,0 +1,112 @@
+[
+  {
+    "permit_id": "PERMIT-A-409",
+    "zone": "Zone A",
+    "type": "Hot Work",
+    "description": "Welding and pipe cutting on main hydrocarbon line",
+    "status": "Active",
+    "equipment_id": "EQ-PUMP-101A",
+    "loto_status": "Applied",
+    "issued_at": "2026-07-16T22:00:00Z",
+    "expires_at": "2026-07-17T06:00:00Z"
+  },
+  {
+    "permit_id": "PERMIT-B-112",
+    "zone": "Zone B",
+    "type": "Cold Work",
+    "description": "Gasket replacement on water valve",
+    "status": "Active",
+    "equipment_id": "EQ-VALVE-202",
+    "loto_status": "Not Applied",
+    "issued_at": "2026-07-16T23:00:00Z",
+    "expires_at": "2026-07-17T03:00:00Z"
+  },
+  {
+    "permit_id": "PERMIT-C-501",
+    "zone": "Zone C",
+    "type": "Confined Space Entry",
+    "description": "Vessel inspection of storage tank T-102",
+    "status": "Active",
+    "equipment_id": "EQ-TANK-102",
+    "loto_status": "Applied",
+    "issued_at": "2026-07-16T21:00:00Z",
+    "expires_at": "2026-07-17T05:00:00Z"
+  },
+  {
+    "permit_id": "PERMIT-D-215",
+    "zone": "Zone D",
+    "type": "Electrical Work",
+    "description": "Substation transformer diagnostics",
+    "status": "Active",
+    "equipment_id": "EQ-XFRM-04",
+    "loto_status": "Applied",
+    "issued_at": "2026-07-16T22:30:00Z",
+    "expires_at": "2026-07-17T02:30:00Z"
+  },
+  {
+    "permit_id": "PERMIT-E-308",
+    "zone": "Zone E",
+    "type": "Cold Work",
+    "description": "Structural paint touch-up on platform ladders",
+    "status": "Active",
+    "equipment_id": "EQ-PLATFORM-01",
+    "loto_status": "Not Applied",
+    "issued_at": "2026-07-16T20:00:00Z",
+    "expires_at": "2026-07-17T04:00:00Z"
+  },
+  {
+    "permit_id": "PERMIT-A-410",
+    "zone": "Zone A",
+    "type": "Cold Work",
+    "description": "Solenoid check on backup generator",
+    "status": "Pending",
+    "equipment_id": "EQ-GEN-02",
+    "loto_status": "Not Applied",
+    "issued_at": "2026-07-17T08:00:00Z",
+    "expires_at": "2026-07-17T12:00:00Z"
+  },
+  {
+    "permit_id": "PERMIT-B-113",
+    "zone": "Zone B",
+    "type": "Hot Work",
+    "description": "Grinding steel brackets on cooling tower platform",
+    "status": "Pending",
+    "equipment_id": "EQ-CT-01",
+    "loto_status": "Not Applied",
+    "issued_at": "2026-07-17T09:00:00Z",
+    "expires_at": "2026-07-17T13:00:00Z"
+  },
+  {
+    "permit_id": "PERMIT-C-502",
+    "zone": "Zone C",
+    "type": "Cold Work",
+    "description": "Instrumentation calibration",
+    "status": "Completed",
+    "equipment_id": "EQ-FIT-402",
+    "loto_status": "Not Applied",
+    "issued_at": "2026-07-16T14:00:00Z",
+    "expires_at": "2026-07-16T18:00:00Z"
+  },
+  {
+    "permit_id": "PERMIT-D-216",
+    "zone": "Zone D",
+    "type": "Hot Work",
+    "description": "Welding on feed pipeline",
+    "status": "Completed",
+    "equipment_id": "EQ-PIPE-303",
+    "loto_status": "Applied",
+    "issued_at": "2026-07-16T12:00:00Z",
+    "expires_at": "2026-07-16T16:00:00Z"
+  },
+  {
+    "permit_id": "PERMIT-E-309",
+    "zone": "Zone E",
+    "type": "Confined Space Entry",
+    "description": "Sewer pipeline cleaning",
+    "status": "Active",
+    "equipment_id": "EQ-SEWER-09",
+    "loto_status": "Applied",
+    "issued_at": "2026-07-16T21:30:00Z",
+    "expires_at": "2026-07-17T03:30:00Z"
+  }
+]
